@@ -7,13 +7,16 @@
 </head>
 <body>
 <main>
-        <h2>Выберите способ доставки заказа</h2>
-        <hr>
-        <p><input type="radio" name="deliver" value="courier"> Курьером</p>
+    <h2>Выберите способ доставки заказа</h2>
+    <hr>
+    <form action="address.html">
+
+        <p><input required="" type="radio" name="deliver" value="courier"> Курьером</p>
         <p><input type="radio" name="deliver" value="drone"> Дронами</p>
         <p><input type="radio" name="deliver" value="pneumo"> Пневмопочтой</p>
         <p><input type="radio" name="deliver" value="mail"> Почтой России</p>
-        <form action="address.html"><button name="chosen_delivery" type="submit">Продолжить</button></form>
+        <button name="chosen_delivery" type="submit">Продолжить</button>
+    </form>
 </main>
 </body>
 </html>
